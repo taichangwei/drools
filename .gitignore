@@ -10,15 +10,16 @@
 *.odem
 *.ws
 *.dtd
-*.log
+*.log*
 *.pid
 *.port
 .gradle/
 build/
-project/target/
+project/
 pom.xml
 pom.xml.asc
 lombok.config
+tmp/
 
 # IntelliJ IDEA
 *.iml
@@ -26,6 +27,7 @@ lombok.config
 *.iws
 .idea/
 classes/
+test-classes/
 
 # Eclipse
 .project
@@ -48,6 +50,9 @@ profiles.clj
 
 # Node
 node_modules/
+package-lock.json
+yarn.lock
+
 
 # Svn
 .svn
