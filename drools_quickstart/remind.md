@@ -11,3 +11,5 @@
 
 
 现在需要根据上面的规则计算优惠后的价格。
+
+(案例涉及相关内容：Order、bookDiscount.drl、OrderTest)
