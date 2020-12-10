@@ -32,6 +32,9 @@ public class ComparisonOperatorTest {
         kieSession.dispose();
     }
 
+    /**
+     * 指定特定的执行规则
+     */
     @Test
     public void testSpecificRule() {
         KieServices kieServices = KieServices.Factory.get();
