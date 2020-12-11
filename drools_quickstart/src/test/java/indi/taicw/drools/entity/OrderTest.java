@@ -11,9 +11,9 @@ public class OrderTest {
     @Test
     public void testBookDiscountRule() {
         KieServices kieServices = KieServices.Factory.get();
-        KieContainer kieClasspathContainer = kieServices.getKieClasspathContainer();
+        KieContainer kieContainer = kieServices.getKieClasspathContainer();
         //会话对象，用于和规则引擎交互
-        KieSession kieSession = kieClasspathContainer.newKieSession();
+        KieSession kieSession = kieContainer.newKieSession();
 
         //构造订单对象，设置原始价格，由规则引擎根据优惠规则计算优惠后的价格
         Order order = new Order();
